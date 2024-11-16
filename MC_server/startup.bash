@@ -1,0 +1,1 @@
+java -Xmx7740M -Xms7740M -jar server.jar nogui
