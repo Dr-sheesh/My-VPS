@@ -17,7 +17,7 @@ _version = 3
 	# Prefix of the level keys sent to the clients.
 	# If the mod is running behind a proxy, each backend should use a unique value (an empty string is allowed for one of the servers).
 	# This value may be auto-generated if the mod is installed before the first start of the server.
-	levelKeyPrefix = "server723"
+	levelKeyPrefix = "server277"
 	#
 	# If true, clients will receive updated LODs when joining or loading new LODs.
 	synchronizeOnLoad = true
