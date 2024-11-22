@@ -1,7 +1,7 @@
 # settings for SleepingServerStarter
 
 serverName: "Render SMP"
-# serverMOTD: "SleepingServer, waiting for his prince... [MOTD]" # The server name to display in Minecraft, defaults to serverName if not set
+serverMOTD: "SleepingServer, waiting for his prince..." # The server name to display in Minecraft, defaults to serverName if not set
 
 serverPort: 26087
 # bedrockPort: 19132
@@ -17,7 +17,7 @@ maxPlayers: 20
 # webAllowRestart: true
 
 startMinecraft: true # false to disable
-minecraftCommand: "java -Xmx7000M -Xms7000M -jar server.jar nogui" # or paper.jar or whatever flavor you like
+minecraftCommand: "/usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xmx32G -Xms32G -jar server.jar nogui" # or paper.jar or whatever flavor you like
 # minecraftAutostart: true
 # restartDelay: 200
 
